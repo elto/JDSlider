@@ -60,7 +60,7 @@ open class JDSliderView: UIView {
     }
 
     //MARK: Selector
-    func handleTap(_ sender: UITapGestureRecognizer){
+    @objc func handleTap(_ sender: UITapGestureRecognizer){
         self.delegate?.slider(self, didSelectSlideAtIndex: self.pageControl.currentPage)
     }
     

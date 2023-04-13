@@ -1,11 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'JDSlider_Example', :exclusive => true do
+target 'JDSlider_Example' do
   pod 'JDSlider', :path => '../'
 end
 
-target 'JDSlider_Tests', :exclusive => true do
+target 'JDSlider_Tests' do
   pod 'JDSlider', :path => '../'
 
   
