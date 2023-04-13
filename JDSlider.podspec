@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/JellyDevelopment/JDSlider"
   s.license          = 'MIT'
   s.author           = { "David L. Carrascal" => "davidlcarrascal@gmail.com" }
-  s.source           = { :git => "https://github.com/JellyDevelopment/JDSlider.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/elto/JDSlider.git" }
   s.social_media_url = 'https://twitter.com/davidlcarrascal'
 
   s.platform     = :ios, '11.0'
