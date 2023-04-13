@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
-  s.name             = "JDSlider"
-  s.version          = "1.0.2"
-  s.summary          = "An iOS Slider written in swift."
-  s.description      = "A full customizable Slider of UIView."
+  s.name             = 'JDSlider'
+  s.version          = '1.0.2'
+  s.summary          = 'An iOS Slider written in swift.'
+  s.description      = 'A full customizable Slider of UIView.'
 
-  s.homepage         = "https://github.com/JellyDevelopment/JDSlider"
+  s.homepage         = 'https://github.com/JellyDevelopment/JDSlider'
   s.license          = 'MIT'
-  s.author           = { "David L. Carrascal" => "davidlcarrascal@gmail.com" }
-  s.source           = { :git => "https://github.com/elto/JDSlider.git" }
+  s.author           = { "David L. Carrascal" => 'davidlcarrascal@gmail.com' }
+  s.source           = { :git => 'https://github.com/elto/JDSlider.git' }
   s.social_media_url = 'https://twitter.com/davidlcarrascal'
 
   s.platform     = :ios, '11.0'
